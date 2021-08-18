@@ -1,0 +1,133 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: cursive,fantasy,inherit,monospace,sans-serif,serif;
+  box-sizing: border-box;
+}
+body{
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.3)),url('newbackgrnd.jpg');
+    background-size: cover;
+    background-attachment:fixed;
+}
+.menue_bar{
+  background: green;
+ text-align: center;
+}
+.menue_bar ul{
+  display: inline-flex;
+  list-style: none;
+  color: #fff;
+}
+.menue_bar ul li{
+  margin:10px;
+  padding: 13px;
+  width: 120px;
+}
+.menue_bar ul li a{
+  text-decoration: none;
+  color: #fff;
+}
+.active, .menue_bar ul li:hover{
+  background-color:  #2bab0d;
+  border-radius: 5px;
+}
+.menue_bar .fa{
+  margin-right: 7px;
+}
+.sub_manue_1{
+  display: none;
+}
+.menue_bar ul li:hover .sub_manue_1{
+display: block;
+position: absolute;
+margin-top: 15px;
+background:  #00b33c;
+margin-left: -15px;
+}
+.menue_bar ul li:hover .sub_manue_1 ul{
+  display: block;
+  margin: 10px;
+}
+.menue_bar ul li:hover .sub_manue_1 ul li{
+  border-bottom: 2px dotted white;
+  width: 150px;
+  padding: 10px;
+  text-align: left;
+}
+.logo h1{
+  position: absolute;
+  margin-top: 12px;
+  margin-left: 25px;
+  height: 55px;
+  width: 70px;
+  color: #fff;
+
+}
+.logo h1:hover{
+  color: lightblue;
+}
+.main{
+  text-align: center;
+  position: absolute;
+  top: 20%;
+  left: 38%;
+  color: #fff;
+}
+
+.main .img{
+    border:2px solid ;
+    border-radius: 90%;
+}
+.main .img:hover{
+  border-color: lightblue;
+}
+
+
+
+.button {
+  text-align: center;
+  position: absolute;
+  top: 57%;
+  left: 42%;
+}
+.button a:hover{
+  background: #D1D10A ;
+}
+.button a {
+color: black;
+font-size: 16px;
+font-weight: 500;
+text-transform:uppercase;
+text-decoration: none;
+outline: none;
+letter-spacing: 1px;
+padding: 10px 15px;
+border-radius: 3px;
+}
+.log{
+background:  #e6fff7;
+margin-right: 20px;
+
+}
+.learn{
+
+background: #e6ecff;
+}
+.footer{
+  text-align: center;
+  margin-top:  37%;
+  background:   url('wa.jpg');
+  background-size: cover;
+  border-top:1px solid #fff;
+  border-top: 100px;
+  padding: 30px;
+}
+.footer a i
+{
+  width: 70px;
+  font-size: 40px;
+  color: #fff;
+}
+.footer a i:hover{
+  color:  lightblue;
+}

@@ -1,0 +1,39 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif,serif;
+}
+.menue{
+  display: flex;
+  background: #E8E8E8;
+  height: 70px;
+}
+.menue ul{
+
+  display: inline-flex;
+  margin-left:30%;
+
+}
+.menue ul li{
+  list-style: none;
+  padding: 25px 30px;
+}
+li a{
+  height: 45px;
+ padding:15px; 
+ border-radius: 15px;
+
+}
+.menue ul li a{
+  text-decoration: none;
+  border:1px solid blue;
+}
+.menue ul li a:hover{
+  background: white;
+}
+.menue ul li input{
+  background: none;
+  border: none;
+  border-bottom: 1px solid #fff;
+
+}
